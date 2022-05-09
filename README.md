@@ -88,7 +88,7 @@ You should see your report like this
 <img width="960" alt="Capture1" src="https://user-images.githubusercontent.com/60509760/167381683-11e52651-0a9c-49d5-a763-3505e1f1ac20.PNG">
 
 
-**The SECOND way to browse report via webserver:**
+**The SECOND way (recommended) to browse report via webserver:**
 
 1. Install Node.js https://nodejs.org/en/download/
 
