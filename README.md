@@ -74,6 +74,7 @@ Step 3: Add more tags in Target box:
 like photo below
 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/60509760/167377597-b4c39074-e758-45a1-a8a5-b20e4393b5be.png)
+
 Step 4: Click Apply > Click OK
 
 **The FIRST way to browse report:**
