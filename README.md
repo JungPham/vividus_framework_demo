@@ -64,11 +64,13 @@ The purpose of this repository is to help users start creating automated tests u
 
 ## How to view the test execution results
 
+
 **The FIRST way to browse report via InteliJ:**
 
 On InteliJ source tree, find `index.html`in reports/allure folder > right click and select Open In > select which browser that you want to run
 
 <img width="960" alt="Capture2" src="https://user-images.githubusercontent.com/60509760/167392161-37e19118-4d1e-47d5-8b0b-6aa0a502ada5.PNG">
+
 
 **The SECOND way to browse report directly in local:**
 
@@ -95,6 +97,7 @@ Step 5: Open Chrome by this shortcut and then copy link report `/dir/to/where/th
 You should see your report like this
 
 <img width="960" alt="Capture1" src="https://user-images.githubusercontent.com/60509760/167381683-11e52651-0a9c-49d5-a763-3505e1f1ac20.PNG">
+
 
 
 **The THIRD way to browse report via webserver:**
