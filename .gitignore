@@ -1,5 +1,6 @@
 #Ignore Gradle cache
 .gradle
+gradle
 
 #Ignore IDE project files
 .settings
@@ -14,3 +15,4 @@
 #Build Dirs#
 output/
 .out/**
+out
