@@ -82,7 +82,7 @@ Open Chrome by this shortcut and then copy link report `/dir/to/where/the/result
 
     2022-04-12 13:38:15,523 [main] INFO  org.vividus.report.allure.AllureReportGenerator - Allure report is successfully generated at /dir/to/where/the/results-are-published/.out/vividus-demo/reports/allure/index.html
     
-You should see your report look like
+You should see your report like this
 
 <img width="960" alt="Capture1" src="https://user-images.githubusercontent.com/60509760/167381683-11e52651-0a9c-49d5-a763-3505e1f1ac20.PNG">
 
