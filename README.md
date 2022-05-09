@@ -63,20 +63,48 @@ The purpose of this repository is to help users start creating automated tests u
     ```
 
 ## How to view the test execution results
-1. At the end of any test run, VIVIDUS will give you a link to where the corresponding test result was published. It should look like this:
-    ```shell
+If you faced with 404 issue cannot load information in Allure report, fix this issue by the way:
+
+Step 1: Create new shortcut Chrome to use custom option
+
+Step 2: Right click on this shortcut > select Properties
+
+Step 3: Add more tags in Target box: 
+```--user-data-dir="C:\Work\chrome" --disable-web-security```
+like photo below
+
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/60509760/167377597-b4c39074-e758-45a1-a8a5-b20e4393b5be.png)
+Step 4: Click Apply > Click OK
+
+**The FIRST way to browse report:**
+
+Open Chrome by this shortcut and then copy link report `/dir/to/where/the/results-are-published/output/reports/allure/index.html` past to browser to see report is loaded successfully, link report can be found at the end of any test run, VIVIDUS will give you a link to where the corresponding test result was published. It should look like this:
+
     2022-04-12 13:38:15,523 [main] INFO  org.vividus.report.allure.AllureReportGenerator - Allure report is successfully generated at /dir/to/where/the/results-are-published/.out/vividus-demo/reports/allure/index.html
-    ```
-1. cd into the directory.
+    
+You should see your report look like
+
+<img width="960" alt="Capture1" src="https://user-images.githubusercontent.com/60509760/167381683-11e52651-0a9c-49d5-a763-3505e1f1ac20.PNG">
+
+
+**The SECOND way to browse report via webserver:**
+
+1. Install Node.js https://nodejs.org/en/download/
+
+2. Install http-server by bash command line
+```npm install http-server -g```
+
+3. cd into the directory.
     ```shell
-    cd /dir/to/where/the/results-are-published/.out/vividus-demo/reports/allure
+    cd /dir/to/where/the/results-are-published/output/reports/allure
     ```
-1. Start a webserver of your choice, in the example below we are using a node webserver through port 3456
+4. Start a webserver of your choice, in the example below we are using a node webserver through port 3456
     ```shell
-    ✔ ~/dir/to/where/the/results-are-published/.out/vividus-demo/reports/allure
     $ http-server -p 3456
     ```
-1. Launch a browser, type `localhost:3456` into the URL. If you followed the instructions properly, you should see your report.
+5. Launch a browser via customed shortcut, type `localhost:3456` into the URL. If you followed the instructions properly, you should see your report like this
+
+<img width="960" alt="Capture" src="https://user-images.githubusercontent.com/60509760/167380549-2cba5b71-cf3e-49eb-a792-3fdbf9b19d1a.PNG">
 
 
 ## Support
