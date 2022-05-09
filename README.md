@@ -63,6 +63,15 @@ The purpose of this repository is to help users start creating automated tests u
     ```
 
 ## How to view the test execution results
+
+**The FIRST way to browse report via InteliJ:**
+
+On InteliJ source tree, find `index.html`in reports/allure folder > right click and select Open In > select which browser that you want to run
+
+<img width="960" alt="Capture2" src="https://user-images.githubusercontent.com/60509760/167392161-37e19118-4d1e-47d5-8b0b-6aa0a502ada5.PNG">
+
+**The SECOND way to browse report directly in local:**
+
 If you faced with 404 issue cannot load information in Allure report, fix this issue by the way:
 
 Step 1: Create new shortcut Chrome to use custom option
@@ -75,11 +84,11 @@ like photo below
 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/60509760/167377597-b4c39074-e758-45a1-a8a5-b20e4393b5be.png)
 
+Refer link to fix other browsers https://testingfreak.com/how-to-fix-cross-origin-request-security-cors-error-in-firefox-chrome-and-ie/
+
 Step 4: Click Apply > Click OK
 
-**The FIRST way to browse report:**
-
-Open Chrome by this shortcut and then copy link report `/dir/to/where/the/results-are-published/output/reports/allure/index.html` past to browser to see report is loaded successfully, link report can be found at the end of any test run, VIVIDUS will give you a link to where the corresponding test result was published. It should look like this:
+Step 5: Open Chrome by this shortcut and then copy link report `/dir/to/where/the/results-are-published/output/reports/allure/index.html` past to browser to see report is loaded successfully, link report can be found at the end of any test run, VIVIDUS will give you a link to where the corresponding test result was published. It should look like this:
 
     2022-04-12 13:38:15,523 [main] INFO  org.vividus.report.allure.AllureReportGenerator - Allure report is successfully generated at /dir/to/where/the/results-are-published/.out/vividus-demo/reports/allure/index.html
     
@@ -88,7 +97,7 @@ You should see your report like this
 <img width="960" alt="Capture1" src="https://user-images.githubusercontent.com/60509760/167381683-11e52651-0a9c-49d5-a763-3505e1f1ac20.PNG">
 
 
-**The SECOND way (recommended) to browse report via webserver:**
+**The THIRD way to browse report via webserver:**
 
 1. Install Node.js https://nodejs.org/en/download/
 
@@ -103,7 +112,7 @@ You should see your report like this
     ```shell
     $ http-server -p 3456
     ```
-5. Launch a browser via customed shortcut, type `localhost:3456` into the URL. If you followed the instructions properly, you should see your report like this
+5. Launch a browser via customed shortcut (follow step 1,2,3,4 of the second way), type `localhost:3456` into the URL. If you followed the instructions properly, you should see your report like this
 
 <img width="960" alt="Capture" src="https://user-images.githubusercontent.com/60509760/167380549-2cba5b71-cf3e-49eb-a792-3fdbf9b19d1a.PNG">
 
