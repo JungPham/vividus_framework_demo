@@ -2,8 +2,7 @@ Description: Test demoing VIVIDUS capabilities for Web Applications
 
 Lifecycle:
 Examples:
-!-- /tables/locators/SignInPage.table, /tables/data/Users.table
-{transformer=CARTESIAN_PRODUCT, tables=tables/locators/SignInPage.table;tables/data/Users.table}
+{transformer=MERGING, mergeMode=columns, tables=/tables/locators/SignInPage.table;/tables/data/Users.table}
 
 Scenario: Verify user cannot sign in with invalid email and password
 Given I am on a page with the URL 'https://courses.ultimateqa.com/users/sign_in'
