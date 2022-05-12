@@ -1,5 +1,3 @@
-{transformer=FORMATTING}
-|email                | password   |
-|abc1@example.com     | 1234567890 |
-|abc2@example.com     | 1234567890 |
-| #{generate(Internet.emailAddress)} | #{generate(Internet.password)} |
+{transformer=FROM_LANDSCAPE}
+|email      | #{generate(Internet.emailAddress)}     |
+|password   | #{generate(Internet.password)}         |
