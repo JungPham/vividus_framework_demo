@@ -1,0 +1,5 @@
+{transformer=FORMATTING}
+|email                | password   |
+|abc1@example.com     | 1234567890 |
+|abc2@example.com     | 1234567890 |
+| #{generate(Internet.emailAddress)} | #{generate(Internet.password)} |

@@ -1,0 +1,4 @@
+{transformer=FROM_LANDSCAPE}
+|email_locator          |By.xpath(//*[@id="user[email]"])                   |
+|password_locator       |By.xpath(//*[@id="user[password]"])                |
+|sign_in_button_locator |By.xpath(//*[@class="form__button-group"]/input)   |
