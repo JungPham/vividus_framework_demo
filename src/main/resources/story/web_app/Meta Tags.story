@@ -4,7 +4,6 @@ Meta:
 
 Lifecycle:
 Examples:
-{transformer=FROM_LANDSCAPE}
 /tables/locators/SignInPage.table
 
 Scenario: Verify Meta Tags with skip

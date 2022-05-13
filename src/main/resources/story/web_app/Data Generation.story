@@ -2,7 +2,6 @@ Description: Test demoing VIVIDUS capabilities for Data Generation
 
 Lifecycle:
 Examples:
-{transformer=FROM_LANDSCAPE}
 /tables/locators/SignInPage.table
 
 Scenario: Verify data generation
