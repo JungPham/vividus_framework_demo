@@ -1,0 +1,4 @@
+Composite: When I fill $userName, $password and click button Sign In in login page
+When I enter `<userName>` in field located `By.xpath(//*[@id="user[email]"])`
+When I enter `<password>` in field located `By.xpath(//*[@id="user[password]"])`
+When I click on element located `By.xpath(//*[@class="form__button-group"]/input)`
