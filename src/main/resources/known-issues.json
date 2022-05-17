@@ -1,10 +1,7 @@
 {
   "BUGID-1": {
     "type": "Internal",
-    "assertionPattern": "Expected: a value format is email, Actual: a value format is string]",
-    "storyPattern": "Know Issue",
-    "scenarioPattern": "Verify mark know issue in report",
-    "stepPattern": "When I wait `PT5S` for debug",
-    "description": "Missing check format type in textbox email"
+    "assertionPattern": "There is an element with text.*",
+    "description": "Except email format is displayed in textbox email"
   }
 }
