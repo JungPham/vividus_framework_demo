@@ -1,2 +1,7 @@
 {
+  "BUGID-1": {
+    "type": "Internal",
+    "assertionPattern": "There is an element with text.*",
+    "description": "Except email format is displayed in textbox email"
+  }
 }

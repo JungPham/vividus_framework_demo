@@ -1,0 +1,4 @@
+Composite: When I fill $userName, $password and click button Sign In in login page
+When I enter `<userName>` in field located `<email_locator>`
+When I enter `<password>` in field located `<password_locator>`
+When I click on element located `<sign_in_button_locator>`
