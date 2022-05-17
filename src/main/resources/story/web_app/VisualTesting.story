@@ -7,16 +7,16 @@ Examples:
 |password_locator               |By.xpath(//*[@id="user[password]"])                |
 |sign_in_button_locator         |By.xpath(//*[@class="form__button-group"]/input)   |
 
-Scenario: Verify visual testing with VIVIDUS with failed test
-Given I am on a page with the URL 'https://courses.ultimateqa.com/users/sign_in'
-When I ESTABLISH baseline with `image_name`
-When I enter `example@epam.com` in field located `<email_locator>`
-When I enter `1234567890` in field located `<password_locator>`
-When I COMPARE_AGAINST baseline with `image_name`
-When I click on element located `<sign_in_button_locator>`
+!-- Scenario: Verify visual testing using VIVIDUS with failed test
+!-- Given I am on a page with the URL '${ultimateqa_site}'
+!-- When I ESTABLISH baseline with `image_name`
+!-- When I enter `example@epam.com` in field located `<email_locator>`
+!-- When I enter `1234567890` in field located `<password_locator>`
+!-- When I COMPARE_AGAINST baseline with `image_name`
+!-- When I click on element located `<sign_in_button_locator>`
 
-Scenario: Verify visual testing with VIVIDUS with local image compare
-Given I am on a page with the URL 'https://courses.ultimateqa.com/users/sign_in'
+Scenario: Verify visual testing using VIVIDUS with local image compare
+Given I am on a page with the URL '${ultimateqa_site}'
 When I enter `example@epam.com` in field located `<email_locator>`
 When I enter `1234567890` in field located `<password_locator>`
 When I COMPARE_AGAINST baseline with `local_image_name`
