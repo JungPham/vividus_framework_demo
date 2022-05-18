@@ -1,6 +1,6 @@
-Description: Test demoing VIVIDUS capabilities for Composite Steps
+Description: Test demoing VIVIDUS capabilities for Known Issue
 Meta:
-@group KnowIssue
+@group KnownIssue
 
 Lifecycle:
 Examples:
