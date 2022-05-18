@@ -13,9 +13,11 @@ Examples:
 !-- When I enter `example@epam.com` in field located `<email_locator>`
 !-- When I enter `1234567890` in field located `<password_locator>`
 !-- When I COMPARE_AGAINST baseline with `image_name`
+!-- When I click on element located `<sign_in_button_locator>`
 
 Scenario: Verify visual testing using VIVIDUS with local image compare
 Given I am on the main application page
 When I enter `example@epam.com` in field located `<email_locator>`
 When I enter `1234567890` in field located `<password_locator>`
 When I COMPARE_AGAINST baseline with `local_image_name`
+When I click on element located `<sign_in_button_locator>`
