@@ -1,6 +1,5 @@
 #Ignore Gradle cache
 .gradle
-gradle
 
 #Ignore IDE project files
 .settings
